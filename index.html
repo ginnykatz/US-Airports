@@ -93,7 +93,7 @@
     L.tileLayer('https://api.mapbox.com/styles/v1/ginnykatz/cjgkk9y9h000m2rqdltjuhvgv/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZ2lubnlrYXR6IiwiYSI6ImNqZ2J2M2U0Nzl1NzEyd21kZHk4czVxdXgifQ.4KrWqM_F46SXCnyhyZj02A', {
         maxZoom: 15,
         minzoom: 3,
-        attribution: 'Data courtesy of <a href="https://bost.ocks.org/mike/"></a> Mike Bostock of D3  <a href="https://bost.ocks.org/mike/"> Airport Basmap by Ginny Katz <a href="https://api.mapbox.com/styles/v1/ginnykatz/cjgkk9y9h000m2rqdltjuhvgv.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2lubnlrYXR6IiwiYSI6ImNqZ2J2M2U0Nzl1NzEyd21kZHk4czVxdXgifQ.4KrWqM_F46SXCnyhyZj02A#4.2/51.966144/-118.934984/0"> </a>    '
+        attribution: 'Control Tower data obtained from USGS and Airport Data courtesy of <a href="https://bost.ocks.org/mike/"></a> Mike Bostock of D3  <a href="https://bost.ocks.org/mike/"> Airport Basmap by Ginny Katz <a href="https://api.mapbox.com/styles/v1/ginnykatz/cjgkk9y9h000m2rqdltjuhvgv.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2lubnlrYXR6IiwiYSI6ImNqZ2J2M2U0Nzl1NzEyd21kZHk4czVxdXgifQ.4KrWqM_F46SXCnyhyZj02A#4.2/51.966144/-118.934984/0"> </a>    '
         }).addTo(mymap);
 
 
@@ -223,7 +223,7 @@
 
 
         var div = L.DomUtil.create('div', 'legend');
-        div.innerHTML += '<b></b><br />';
+        div.innerHTML += '<b># Airports</b><br />';
         div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p>19+</p>';
         div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p>14-18</p>';
         div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p>11-13</p>';
